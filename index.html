@@ -1,1 +1,125 @@
-My link in bio
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #004643;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      .name {
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+      }
+
+      .link {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="items">
+      <div class="banner">
+        <img src="/thumbnails/link_profile.jpg" alt="Vincent Pham headshot" class="banner-image">
+      </div>
+
+      <div class="name">
+        Vincent Pham
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/" target="_blank">
+          GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/" target="_blank">
+          LinkedIn
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          Instagram
+        </a>
+
+        <a href="https://twitter.com/" target="_blank">
+          Twitter
+        </a>
+      </div>
+
+      <div class="link">
+        <img src="thumbnails/evdog.jpg" class="thumbnail">
+
+        <a target="_blank" href="https://en.wikipedia.org/wiki/Domestication_of_the_dog"> How Dogs Were Domesticated</a>
+      </div>
+
+      <div class="link">
+        <img src="/thumbnails/evolution.png" class="thumbnail">
+
+        <a target="_blank"
+          href="https://en.wikipedia.org/wiki/Evolution">History of Evolution</a>
+      </div>
+
+      <div class="link">
+        <img src="thumbnails/darwin.jpg" class="thumbnail">
+
+        <a target="_blank" href="https://en.wikipedia.org/wiki/Charles_Darwin">
+          About Charles Darwin</a>
+      </div>
+    </div>
+  </body>
+</html>
